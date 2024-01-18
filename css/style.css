@@ -1,0 +1,179 @@
+@font-face {
+    font-family: sentinel medium;
+    src: url(../fonts/FontsFree-Net-Sentinel-Medium.ttf);
+  }
+body{
+  font-family: sentinel !important;
+}
+
+/*========================navebar==============================*/
+.navbar{
+  position: absolute;
+top:90px;
+z-index: 1;
+width: 100%;
+background:#151414b3;
+
+}
+
+/*=============================banner====================*/
+#carousel{
+position: relative;
+}
+
+/*========================gallery==================================*/
+
+.list-style{
+  list-style: none;
+
+}
+ul{
+  list-style: none;
+}
+/*============================lexagtion====================*/
+
+.gallery-section{
+position: relative !important;
+}
+.gallery-section::before{
+  content: "";
+  position: absolute;
+  background:#d8c77d;
+  width: 33% ;
+  height: 400px;
+  z-index:-1;
+
+}
+.contact{
+  background:#eacf23;
+  position: absolute;
+}
+.list-style li{
+  font-size: 15px;
+}
+.h6{
+  padding-left: 32px;
+}
+.stic2{
+height: 7px;
+width: 95px;
+background: #dabb09;
+position: absolute;
+z-index: 1;
+right:32px;
+top: 26px;
+
+}
+
+
+/*=======================make=========================*/
+.make-section{
+ 
+  padding:70px;
+}
+.parent{
+  text-align: center;
+  text-decoration:none;
+}
+
+
+/*========================our menu========================*/
+.container-fluid.row{
+  background: #e2d183;
+
+}
+
+.imgg {
+  background: #e2d183;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  align-items: center;
+  border: 6px;
+  border-style: solid;
+  border-color: #d5bd2d;
+  justify-content: center;
+}
+.imgg{
+  padding-top: 32px;
+}
+.box{
+  padding-top: 78px;
+}
+.pp{
+     background: black;
+    height: 35px;
+    width: 149px;
+    color: white; 
+    padding-top: 4px;
+}
+.pp:hover{
+  background: #d5bd2d;
+  color: whitesmoke;
+  
+}
+
+/*================================our-gallery================*/
+.our-gallery{
+  position: relative;
+}
+/*==============================card===============================*/
+.card-title{
+  color: #dabb09;
+}
+ul li a i{
+  color: #23201f;
+}
+.card-title:hover{
+text-decoration: underline;
+color: #dabb09;
+transition: .5s;
+
+}
+.card{
+box-shadow: 0px 6px 4px rgb(237, 231, 231);
+}
+/*============================book-even================*/
+.form-label{
+  font-size: 14px;
+}
+.form-control{
+font-size: 12px;
+}
+/*========================footer-top===================*/
+
+.stick{
+width: 70px;
+height: 5px;
+color: #d5bd2d;
+}
+.size{
+  font-size: 10px;
+color: aliceblue;
+}
+.row-h{
+  font-size: 16px;
+  color: aliceblue;
+}
+.icon i{
+  color: aliceblue;
+}
+.iii{
+  padding-left: 28px;
+}
+
+.stic{
+  height: 3px;
+  width: 56px;
+  background: #d5bd2d;
+}
+
+/*===================================footer========================*/
+.parent p{
+  color: aliceblue;
+  padding: 12px;
+}
+
+
+
+
